@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lipus-trw.github.io/NewHome/</id>
     <title>Home</title>
-    <updated>2021-09-12T03:26:04.260Z</updated>
+    <updated>2021-09-12T03:36:56.794Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lipus-trw.github.io/NewHome/"/>
     <link rel="self" href="https://lipus-trw.github.io/NewHome/atom.xml"/>
@@ -11,20 +11,25 @@
     <icon>https://lipus-trw.github.io/NewHome/favicon.ico</icon>
     <rights>All rights reserved 2021, Home</rights>
     <entry>
-        <title type="html"><![CDATA[测试一下]]></title>
-        <id>https://lipus-trw.github.io/NewHome/post/hello-gridea/</id>
-        <link href="https://lipus-trw.github.io/NewHome/post/hello-gridea/">
+        <title type="html"><![CDATA[关于]]></title>
+        <id>https://lipus-trw.github.io/NewHome/post/guan-yu/</id>
+        <link href="https://lipus-trw.github.io/NewHome/post/guan-yu/">
         </link>
-        <updated>2018-12-11T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-<!-- more -->
-<p><a href="https://github.com/getgridea/gridea">Github</a><br>
-<a href="https://gridea.dev/">Gridea 主页</a><br>
-<a href="http://fehey.com/">示例网站</a></p>
+        <updated>2021-09-12T03:35:03.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>2021 © Lipus Studio. All Rights Reserved.<br>
+Powered by GRIDEA.</p>
+</blockquote>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Gemini UI]]></title>
+        <id>https://lipus-trw.github.io/NewHome/post/gemini-ui/</id>
+        <link href="https://lipus-trw.github.io/NewHome/post/gemini-ui/">
+        </link>
+        <updated>2021-09-12T03:32:40.000Z</updated>
+        <content type="html"><![CDATA[<p>尚未公布！<br>
+<img src="https://lipus-trw.github.io/NewHome//post-images/1631417684141.jpg" alt="" loading="lazy"></p>
 ]]></content>
     </entry>
 </feed>
