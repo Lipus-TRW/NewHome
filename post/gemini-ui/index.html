@@ -1,136 +1,111 @@
-<html>
+<!DOCTYPE html>
+<html lang="zh-CN">
 <head>
-    <meta charset="utf-8" />
-<meta name="description" content="" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-
-<title>Gemini UI | Home</title>
-
-<link rel="shortcut icon" href="https://lipus-trw.github.io/NewHome//favicon.ico?v=1631417869976">
-
-<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://lipus-trw.github.io/NewHome//styles/main.css">
-<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css"> -->
-
-<style>
-    hr {
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-        border: 0;
-        border-top: 1px solid rgba(0, 0, 0, 0.1);
-    }
-</style>
-
-<script src="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets/highlight.min.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dockerfile.min.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dart.min.js"></script>
-
-<!-- <script src="https://cdn.jsdelivr.net/npm/moment@2.27.0/moment.min.js"></script> -->
-<!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script> -->
-<!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script> -->
-<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"></script> -->
-<!-- DEMO JS -->
-<!--<script src="media/scripts/index.js"></script>-->
-
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.css">
+<!-- 必要参数 -->
+<meta charset="utf-8"/>
+<title>Gemini UI 1.0 Offcial Edition | Lipus Studio 主页</title>
+<meta name="keywords" content="关键词"/>
+<meta name="description" content="简述"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable:no"/>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="shortcut icon" href="favicon.ico">
+<!-- CSS -->
+<link rel="stylesheet" href="https://lipus-trw.github.io/NewHome//media/css/mdui.min.css">
+<link rel="stylesheet" href="https://lipus-trw.github.io/NewHome//media/css/modify.css">
+<link rel="stylesheet" href="https://lipus-trw.github.io/NewHome//media/css/github-gist.min.css">
+<link rel="stylesheet" href="https://lipus-trw.github.io/NewHome//media/css/railscasts.min.css">
 </head>
-<body>
-<div class="main gt-bg-theme-color-first">
-    <nav class="navbar navbar-expand-lg">
-    <div class="navbar-brand">
-        <img class="user-avatar" src="/images/avatar.png" alt="头像">
-        <div class="site-name gt-c-content-color-first">
-            Home
+<body id="post" class="mdui-appbar-with-toolbar mdui-theme-primary-blue-grey mdui-theme-accent-blue mdui-theme-layout-dark">
+<header role="banner">
+    <div class="mdui-appbar mdui-appbar-fixed mdui-appbar-scroll-hide mdui-shadow-0">
+        <div class="mdui-toolbar">
+            <button class="mdui-btn mdui-btn-icon" id="menu" mdui-drawer="{target:'#drawer',overlay:true,swipe:true}"><i class="mdui-icon material-icons">menu</i></button>
+            <a href="https://lipus-trw.github.io/NewHome/" class="mdui-typo-headline">Lipus Studio 主页</a>
+            <div class="mdui-toolbar-spacer"></div>
+            <button class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: '深色样式切换', position: 'left'}" id="DarkStyle"><i class="mdui-icon material-icons">brightness_4</i></button>
         </div>
     </div>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="changeNavbar">
-        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <div class="navbar-nav mr-auto" style="text-align: center">
-            
-        </div>
-        <div style="text-align: center">
-            <form id="gridea-search-form" style="position: relative" data-update="1631417869976"
-                action="/search/">
-                <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
-                <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
-            </form>
-        </div>
-    </div>
+</header>
+
+<nav id="drawer" class="mdui-drawer mdui-drawer-full-height mdui-drawer-close">
+    <ul class="mdui-list">
+        <a href="https://lipus-trw.github.io/NewHome/" class="menu"><li class="mdui-list-item mdui-ripple">主页</li></a>
+        <a href="https://lipus-trw.github.io/Home/" class="menu"><li class="mdui-list-item mdui-ripple">旧页</li></a>
+        <a href="https://space.bilibili.com/471197002" class="menu"><li class="mdui-list-item mdui-ripple">小破站主页</li></a>
+        <a href="https://lipus-trw.github.io/NewHome/tags" class="menu"><li class="mdui-list-item mdui-ripple">PowerPoint UI</li></a>
+        <a href="https://lipus-trw.github.io/NewHome/post/about" class="menu"><li class="mdui-list-item mdui-ripple">关于 Lipus Studio</li></a>
+        
+        <a href="https://github.com/CPlayer-CN/gridea-theme-cplayer-material" class="spread"><li class="mdui-list-item mdui-ripple">主题主页</li></a>
+    </ul>
 </nav>
-<script>
-    /* 移动端导航栏展开/收起切换 */
-    document.getElementById('changeNavbar').onclick = () => {
-        var element = document.getElementById('navbarSupportedContent');
-        if (element.style.display === 'none' || element.style.display === '') {
-            element.style.display = 'block';
-        } else {
-            element.style.display = 'none';
-        }
-    }
-</script>
-    <div class="post-container">
-        <div class="post-detail gt-bg-theme-color-second">
-            <article class="gt-post-content">
-                <h2 class="post-title">
-                    Gemini UI
-                </h2>
-                <div class="post-info">
-                    <time class="post-time gt-c-content-color-first">
-                        · 2021-09-12 ·
-                    </time>
-                    
-                </div>
-                <div class="post-content">
-                    <p>尚未公布！<br>
-<img src="https://lipus-trw.github.io/NewHome//post-images/1631417684141.jpg" alt="" loading="lazy"></p>
 
-                </div>
-            </article>
+
+<main class="mdui-container mdui-typo mdui-m-t-2">
+    <section class="mdui-card">
+        
+        <div class="mdui-card-media">
+            <img src="https://lipus-trw.github.io/NewHome//post-images/gemini-ui.png">
         </div>
+        
+        <div class="mdui-card-primary">
+            <div class="mdui-card-primary-title">Gemini UI 1.0 Offcial Edition</div>
+            <div class="mdui-card-primary-subtitle">发布于 2021-09-12，包含标签 <a href="https://lipus-trw.github.io/NewHome/tag/pUJkb50vF/" class="post-tags"># Gemini UI</a>。</div>
+        </div>
+        <div class="mdui-card-content"><h3 id="主要介绍">主要介绍</h3>
+<p>Gemini UI 是由 Lipus Studio 制作的、基于 Microsoft PowerPoint 的仿操作系统 UI 。UI 使用以 Level、Simple、Material、Smooth 为设计核心的 G-Level Design 设计语言（具体在之后会较为详细地说明），界面好看、简洁，动画以平滑和流畅为主。<br>
+“少搞花里胡哨的东西、削减华而不实的功能、让系统中的各个应用都有其用。”在 PPT 的诸多限制下，UI 中大部分应用本该有的功能都尽量地被还原（虽然最终只是玩玩而已），在日常中很少用上或者根本用不上的功能在此 UI 中都被砍掉，这是本 UI 的特点，也是工作室对制作 PPTUI 的要求之一。</p>
+<h3 id="预览">预览</h3>
+<p><img src="https://lipus-trw.github.io/NewHome//post-images/1643557340514.png" alt="" loading="lazy"><br>
+<img src="https://lipus-trw.github.io/NewHome//post-images/1643557355742.png" alt="" loading="lazy"><br>
+<img src="https://lipus-trw.github.io/NewHome//post-images/1643557360275.png" alt="" loading="lazy"><br>
+<img src="https://lipus-trw.github.io/NewHome//post-images/1643557372972.png" alt="" loading="lazy"><br>
+<img src="https://lipus-trw.github.io/NewHome//post-images/1643557377932.png" alt="" loading="lazy"></p>
+<h3 id="之后版本更新内容">之后版本更新内容</h3>
+<p>修复：<br>
+1、PPT 平滑切换相关的问题<br>
+2、黑暗模式太过于乌漆嘛黑的问题<br>
+3、其他的细节方面问题<br>
+（等等）</p>
+<h3 id="适配平台">适配平台</h3>
+<p>支持平滑切换的 Microsoft PowerPoint 版本（Microsoft 365 最佳）<br>
+WPS Office（不推荐）</p>
+<h3 id="下载链接">下载链接</h3>
+<p><a href="https://cloud.189.cn/web/share?code=Y7riUf6f2miy">天翼云盘</a></p>
+<p>2022 © Lipus Studio. All Rights Reserved.</p>
+</div>
+        <div class="mdui-card-header">
+            <img class="mdui-card-header-avatar" src="https://lipus-trw.github.io/NewHome//images/avatar.png">
+            <div class="mdui-card-header-title">Lipus Studio 主页</div>
+            <div class="mdui-card-header-subtitle">这里是 Lipus Studio 的主页！</div>
+        </div>
+    </section>
 
-        
+      
+</main>
 
-        
+<nav class="mdui-container mdui-m-t-2 mdui-m-b-2">
+    <a href="https://lipus-trw.github.io/NewHome/post/windows-longhorn-10-concept/" mdui-tooltip="{content: '上一篇', position: 'right'}"><button class="mdui-btn mdui-btn-icon mdui-btn-dense mdui-color-theme-accent mdui-ripple mdui-m-r-1"><i class="mdui-icon material-icons">arrow_back</i></button>Windows Longhorn 10 Concept</a>
+    
+</nav>
 
-        
-
-        
-
-        <div class="site-footer gt-c-content-color-first">
-    <div class="slogan gt-c-content-color-first">这里是 Lipus Studio 的主页！</div>
-    <div class="social-container">
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-            
-        
-    </div>
-    <div class="footer-info">
-        Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
-    </div>
-    <div>
-        Theme by <a href="https://imhanjie.com/" target="_blank">imhanjie</a>, Powered by <a
-                href="https://github.com/getgridea/gridea" target="_blank">Gridea | <a href="https://lipus-trw.github.io/NewHome//atom.xml" target="_blank">RSS</a></a>
-    </div>
+<div class="mdui-m-t-2 mdui-text-center mdui-typo">
+    This website is powered by Gridea.
+2022 © Lipus Studio. All Rights Reserved.
 </div>
 
+<script src="https://lipus-trw.github.io/NewHome//media/js/jquery.min.js"></script>
+<script src="https://lipus-trw.github.io/NewHome//media/js/mdui.min.js"></script>
+<script src="https://lipus-trw.github.io/NewHome//media/js/modify.js"></script>
+<script src="https://lipus-trw.github.io/NewHome//media/js/highlight.min.js"></script>
+<script src="https://lipus-trw.github.io/NewHome//media/js/lightense.min.js"></script>
 <script>
-  hljs.highlightAll()
+// 初始化-高亮代码
+hljs.initHighlightingOnLoad();
+// 初始化-文章图片放大
+window.addEventListener('load', function () {
+    Lightense('#post .mdui-card-content img');
+}, false);
 </script>
 
-    </div>
-</div>
 </body>
 </html>

@@ -1,35 +1,128 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lipus-trw.github.io/NewHome/</id>
-    <title>Home</title>
-    <updated>2021-09-12T03:37:54.711Z</updated>
+    <title>Lipus Studio 主页</title>
+    <updated>2022-01-30T15:43:55.846Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lipus-trw.github.io/NewHome/"/>
     <link rel="self" href="https://lipus-trw.github.io/NewHome/atom.xml"/>
     <subtitle>这里是 Lipus Studio 的主页！</subtitle>
     <logo>https://lipus-trw.github.io/NewHome/images/avatar.png</logo>
     <icon>https://lipus-trw.github.io/NewHome/favicon.ico</icon>
-    <rights>All rights reserved 2021, Home</rights>
+    <rights>All rights reserved 2022, Lipus Studio 主页</rights>
     <entry>
-        <title type="html"><![CDATA[关于]]></title>
-        <id>https://lipus-trw.github.io/NewHome/post/guan-yu/</id>
-        <link href="https://lipus-trw.github.io/NewHome/post/guan-yu/">
+        <title type="html"><![CDATA[Windows 11 存在的一些问题]]></title>
+        <id>https://lipus-trw.github.io/NewHome/post/windows-11-problems/</id>
+        <link href="https://lipus-trw.github.io/NewHome/post/windows-11-problems/">
         </link>
-        <updated>2021-09-12T03:35:03.000Z</updated>
-        <content type="html"><![CDATA[<blockquote>
-<p>2021 © Lipus Studio. All Rights Reserved.<br>
-Powered by GRIDEA.</p>
-</blockquote>
+        <updated>2022-01-21T14:07:44.000Z</updated>
+        <content type="html"><![CDATA[<p>本人用 Windows 11 已经用几个月了。虽然刚用的时候确实被其新貌给惊艳到了，但用久了就发现了其背后的问题。本人便在此文章中列出 Windows 11 中的五个明显的且所有设备都存在的问题，同诸位分享。（所以在这五个问题中，没有一个问题是和系统稳定性有关的，因为这个问题很多时候因设备而异。）<br>
+<img src="https://lipus-trw.github.io/NewHome//post-images/1642774229163.png" alt="" loading="lazy"></p>
+<h4 id="注意这里的大部分观点都是个人观点">注意：这里的大部分观点都是个人观点！</h4>
+<h3 id="1-一个顶栏两边不一">1、一个顶栏，两边不一。</h3>
+<p>Windows 11 对大部分系统内置应用的风格进行了更新。它们乍一看挺好看的，但在部分应用（详细点，指 Microsoft Store 和系统设置）仔细观察就会发现，顶栏的两边是没有对齐的。左边的文字或箭头或图标，相对于右边的三个按钮偏下了。（不过这样的问题也有一定的原因在里面）<br>
+<img src="https://lipus-trw.github.io/NewHome//post-images/1642774905339.png" alt="" loading="lazy"></p>
+<h3 id="2-某些字体上古世纪">2、某些字体，上古世纪。</h3>
+<p>Windows 11 对固定在任务栏上的应用的预览栏风格进行了更新。但更新的同时却引来了“倒退”。<br>
+预览栏上显示的文字由系统早期推送版本时的“微软雅黑”变成了之后的“宋体”。这让用户看起来违和感满满，还降低了系统在外貌上的逼格。（估计强迫症患者注意到这个病就来了）<br>
+<img src="https://lipus-trw.github.io/NewHome//post-images/1642775826536.png" alt="" loading="lazy"></p>
+<h3 id="3-好看的动效并非人人都有">3、好看的动效，并非“人人”都有。</h3>
+<p>Windows 11 更新了应用最小大化的动效，大部分应用都已经适配了。<br>
+但也仅仅是大部分，还有应用存在没有适配的情况（注：可能不关系统的事，与应用是否愿意主动适配有关）。<br>
+（具体看本人在 B 站发布的同题视频）</p>
+<h3 id="4-风格变了但没全变">4、风格变了，但没全变。</h3>
+<p>Windows 11 带来了全新的 UI 风格，同时也还留着 Windows 10 的老问题——设计风格不统一。<br>
+在 Win11 上，大部分的系统内置应用都已经换了新，但还有个别应用（详细点，指任务管理器、邮箱和日历、Windows 安全中心等应用）还留在旧版本的风格。<br>
+<img src="https://lipus-trw.github.io/NewHome//post-images/1642840395628.png" alt="" loading="lazy"><br>
+<img src="https://lipus-trw.github.io/NewHome//post-images/1642840441882.png" alt="" loading="lazy"><br>
+而且，在某些用上新风格的应用上，还能扒出些熟悉的东西。如此多老旧的痕迹混杂在里面，且又是从 Win10 遗留下来的诟病，这就让系统在外观上的逼格降了不少，也影响到用户的视觉感受。（除非用户不在意）<br>
+<img src="https://lipus-trw.github.io/NewHome//post-images/1642840539283.png" alt="" loading="lazy"><br>
+不过据消息报告，在最新的 Dev 版本上，任务管理器和 Windows Defender 都已经换新，这意味着更多的应用也都能换上新的风格，系统的 UI 的风格统一更近了一步（不过风格统一的完成就是时间问题了）。</p>
+<h3 id="5-某些好用的功能被大刀部砍去了">5、某些好用的功能，被大刀部砍去了。</h3>
+<p>Windows 11 增添了很多新奇的功能，但也砍掉了一些在旧版本中用起来非常好用的功能。比如磁贴和任务栏应用拖放固定这两个功能。<br>
+磁贴最早被应用于 Windows Phone，后来被应用于 Windows 8，并被传承到了 Windows 10 上。因信息能在磁贴上预览和利用磁贴可以对开始菜单或屏幕进行个性化定制等功能，磁贴深受广大用户的好评。但不知何原因，在 Windows 11 上，磁贴被改成了纯应用菜单，这也就意味着开始菜单不再变得像之前那样好玩，也意味着 Windows 11 的个性化程度又少了积分。（说白了，就是让非常喜欢磁铁的用户对其说一声：RNM，退钱！）<br>
+<img src="https://lipus-trw.github.io/NewHome//post-images/1642841579964.png" alt="" loading="lazy"><br>
+在 11 之前的 Windows 版本上，要在任务栏上固定应用，只需要直接将应用给拖进任务栏上，或者右键菜单选择“固定到任务栏上”即可，而将应用直接拖到任务栏上，本人相信这比右键菜单操作会方便很多，也相信很多用户都是这样将应用固定在任务栏上的。但可惜的是，在 Windows 11 上，这个功能被大刀部给砍了。（RNM，退钱！）<br>
+<img src="https://lipus-trw.github.io/NewHome//post-images/1642841737859.png" alt="" loading="lazy"></p>
+<p>以上，就是本人和诸位所分享的，Windows 11 中存在的五个明显问题。除了这几个明显问题，Win11 还有着诸多影响生产力的、与系统稳定性相关的问题，由于这些问题很多时候因设备而异，且篇幅有限，本人便不一一说出来了。纵观本人上述的问题，仔细想下可以发现，这些明显的问题和两个因素有关：对细节的考虑和所处的角度。由于微软对细节方面的考虑不足，就造成了上述问题中的前四个（第三个除外），而剩余的问题，就和微软没有站在用户的角度有关了。想要让 Windows 11 成为其宣传语所说的“更接近于用户所爱”的模样，如果微软未能及时发现这些问题，并考虑造成这些问题的因素，恐怕还需要一段时间。或者说，现在，还为时过早了。</p>
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Gemini UI]]></title>
+        <title type="html"><![CDATA[关于 Lipus Studio]]></title>
+        <id>https://lipus-trw.github.io/NewHome/post/about/</id>
+        <link href="https://lipus-trw.github.io/NewHome/post/about/">
+        </link>
+        <updated>2021-09-19T07:42:11.000Z</updated>
+        <content type="html"><![CDATA[<h3 id="关于-lipus-studio">关于 Lipus Studio</h3>
+<p>Lipus Studio 是由【戌犬朱狼】成立的个人工作室。<br>
+该工作室以制作视频和 PowerPoint UI 为主要职务。<br>
+特点就是：站长喜欢咕咕咕罢~~~</p>
+<p>2019-2022 © Lipus Studio. All Rights Reserved.</p>
+<h3 id="关于戌犬朱狼">关于【戌犬朱狼】</h3>
+<p>高中生、PowerPoint 爱好者、中二病患者、二次元人、奥迷。<br>
+虽有乐于助人之长，但在某些时候或某种情况下会以自我为中心 (说白了就是只白眼狼)<br>
+不开放任何联系方式，B 站某些私聊内容不看。</p>
+<h3 id="关于-lipus-studio-主页">关于 Lipus Studio 主页</h3>
+<p>Powered by Gridea.<br>
+主题: CPlayer-Material</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Windows Longhorn 10 Concept]]></title>
+        <id>https://lipus-trw.github.io/NewHome/post/windows-longhorn-10-concept/</id>
+        <link href="https://lipus-trw.github.io/NewHome/post/windows-longhorn-10-concept/">
+        </link>
+        <updated>2021-09-19T05:41:08.000Z</updated>
+        <content type="html"><![CDATA[<h3 id="windows-longhorn-10-concept-update-2">Windows Longhorn 10 Concept (Update 2).</h3>
+<p>Return.Remake.<br>
+欢迎下载体验！<a href="https://wwx.lanzoui.com/iK62xg1iwkh">蓝奏云下载</a></p>
+<h3 id="windows-longhorn-10-concept-fluent">Windows Longhorn 10 Concept Fluent.</h3>
+<p>The fusion of the past and now. <a href="https://wwx.lanzoui.com/ibdv2h21lab">蓝奏云下载</a></p>
+<h3 id="历史版本">历史版本</h3>
+<p><a href="https://wwx.lanzoui.com/isHJUeuny3e">Original Version</a><br>
+<a href="https://wwx.lanzoui.com/iCkmlewkbzc">Update 1</a></p>
+<h3 id="预览">预览</h3>
+<figure data-type="image" tabindex="1"><img src="https://lipus-trw.github.io/NewHome//post-images/1632035105441.png" alt="" loading="lazy"></figure>
+<h3 id="适配平台">适配平台</h3>
+<p>Microsoft PowerPoint 2016 以上版本 (推荐 Microsoft 365)<br>
+WPS Office (不推荐)</p>
+<h3 id="补充信息">补充信息</h3>
+<p>注意：<br>
+1、该系统是 PPT 概念 UI ，并非“真实”系统，不属于 Microsoft/Windows 本身<br>
+2、该系统会不定时发布更新，有更新会在 Bilibili 平台通知，想了解更多请关注 <a href="https://space.bilibili.com/471197002">戌犬朱狼-Lipus</a></p>
+<p>UI 制作参与者：<br>
+1、<a href="https://space.bilibili.com/471197002">戌犬朱狼-Lipus</a><br>
+2、<a href="https://space.bilibili.com/389275660?from=search&amp;seid=14888383398815314651">小横线-TL</a></p>
+<p>2021 © Lipus Studio. All Rights Reserved.</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Gemini UI 1.0 Offcial Edition]]></title>
         <id>https://lipus-trw.github.io/NewHome/post/gemini-ui/</id>
         <link href="https://lipus-trw.github.io/NewHome/post/gemini-ui/">
         </link>
         <updated>2021-09-12T03:32:40.000Z</updated>
-        <content type="html"><![CDATA[<p>尚未公布！<br>
-<img src="https://lipus-trw.github.io/NewHome//post-images/1631417684141.jpg" alt="" loading="lazy"></p>
+        <content type="html"><![CDATA[<h3 id="主要介绍">主要介绍</h3>
+<p>Gemini UI 是由 Lipus Studio 制作的、基于 Microsoft PowerPoint 的仿操作系统 UI 。UI 使用以 Level、Simple、Material、Smooth 为设计核心的 G-Level Design 设计语言（具体在之后会较为详细地说明），界面好看、简洁，动画以平滑和流畅为主。<br>
+“少搞花里胡哨的东西、削减华而不实的功能、让系统中的各个应用都有其用。”在 PPT 的诸多限制下，UI 中大部分应用本该有的功能都尽量地被还原（虽然最终只是玩玩而已），在日常中很少用上或者根本用不上的功能在此 UI 中都被砍掉，这是本 UI 的特点，也是工作室对制作 PPTUI 的要求之一。</p>
+<h3 id="预览">预览</h3>
+<p><img src="https://lipus-trw.github.io/NewHome//post-images/1643557340514.png" alt="" loading="lazy"><br>
+<img src="https://lipus-trw.github.io/NewHome//post-images/1643557355742.png" alt="" loading="lazy"><br>
+<img src="https://lipus-trw.github.io/NewHome//post-images/1643557360275.png" alt="" loading="lazy"><br>
+<img src="https://lipus-trw.github.io/NewHome//post-images/1643557372972.png" alt="" loading="lazy"><br>
+<img src="https://lipus-trw.github.io/NewHome//post-images/1643557377932.png" alt="" loading="lazy"></p>
+<h3 id="之后版本更新内容">之后版本更新内容</h3>
+<p>修复：<br>
+1、PPT 平滑切换相关的问题<br>
+2、黑暗模式太过于乌漆嘛黑的问题<br>
+3、其他的细节方面问题<br>
+（等等）</p>
+<h3 id="适配平台">适配平台</h3>
+<p>支持平滑切换的 Microsoft PowerPoint 版本（Microsoft 365 最佳）<br>
+WPS Office（不推荐）</p>
+<h3 id="下载链接">下载链接</h3>
+<p><a href="https://cloud.189.cn/web/share?code=Y7riUf6f2miy">天翼云盘</a></p>
+<p>2022 © Lipus Studio. All Rights Reserved.</p>
 ]]></content>
     </entry>
 </feed>
